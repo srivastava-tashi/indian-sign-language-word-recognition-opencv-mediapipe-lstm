@@ -1,0 +1,1 @@
+# indian-sign-language-word-recognition-opencv-mediapipe-lstm
