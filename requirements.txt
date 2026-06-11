@@ -1,7 +1,8 @@
-streamlit
-mediapipe
-opencv-python-headless
-tensorflow-cpu
-numpy
-pandas
-pillow
+streamlit==1.36.0
+opencv-python-headless==4.8.1.78
+mediapipe==0.10.9
+tensorflow-cpu==2.15.0
+numpy==1.26.4
+pandas==2.2.2
+pillow==10.3.0
+
