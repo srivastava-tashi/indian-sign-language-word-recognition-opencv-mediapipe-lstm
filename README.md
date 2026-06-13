@@ -61,7 +61,7 @@ The project aims to bridge the gap between the individuals who rely on Indian Si
 ### Metrics
 **Test Accuracy: 74.07%**
 
-**Validation accuracy: 85.45%**
+**Validation Accuracy: 85.45%**
 
 ### Classification Report
 ![Alt text](images/classification_report.png)
@@ -72,9 +72,12 @@ The model achieved a perfect precision score and f1-score for several classes an
 ## How to Run the Project
 ### Steps
 Follow these steps to set up and launch the application locally on your pc.
-1. Download the dependencies (install requirements.txt file)
-2. Download the trained keras model and python script (isl_recognition_model.keras, streamlit_app.py)
-3. Run the streamlit application in the terminal of the folder where these files are saved (command: streamlit run streamlit_app.py)
+1. Download the following files:
+   a) dependencies (install requirements.txt file)
+   b) trained keras model (isl_recognition_model.keras)
+   c) mediapipe_taskfiles (hand, face, and pose task files)
+   d) python script (streamlit_app.py)
+2. Run the streamlit application in the terminal of the folder where these files are saved (command: streamlit run streamlit_app.py)
 
 ## Future work
 
