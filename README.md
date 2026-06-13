@@ -67,17 +67,21 @@ The project aims to bridge the gap between the individuals who rely on Indian Si
 ![Alt text](images/classification_report.png)
 
 ### Summary
-The model achieved a perfect precision score and f1-score for several classes and scored lower (0.33) due to low samples.
+The model achieved a perfect precision score and f1-score for several classes and scored lower (0.33) due to low sample availability.
 
 ## How to Run the Project
 ### Steps
 Follow these steps to set up and launch the application locally on your pc.
 1. Download the following files:
+   
    a) dependencies (install requirements.txt file)
+
    b) trained keras model (isl_recognition_model.keras)
+
    c) mediapipe_taskfiles (hand, face, and pose task files)
+
    d) python script (streamlit_app.py)
-2. Run the streamlit application in the terminal of the folder where these files are saved (command: streamlit run streamlit_app.py)
+4. Run the streamlit application in the terminal of the folder where these files are saved (command: streamlit run streamlit_app.py)
 
 ## Future work
 
